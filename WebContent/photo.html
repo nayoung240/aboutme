@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Photo</title>
+<style>
+    body{
+        background-color: #ececec;
+    }
+    header{
+        background-color: white;
+        height: 70px;
+    }
+    .headul{
+        float:right;
+        margin-top: 12px;
+        margin-bottom: 0px;
+        padding-left: 0px;
+        margin-right: 14px;
+    }
+    .headul li{
+        list-style: none;
+        float: left;
+        background-color: lightblue;
+        width: 140px;
+        height: 35px;
+        margin: 5px;
+        box-shadow: 2px 2px 5px #8e8e8e;
+    }
+    .headul a{
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        padding-top: 5px;
+    }
+    section{
+        background-color: white;
+        height: 800px;
+        margin-top: 15px;
+    }
+    .tdiv{
+        height: 800px; width: 100%;
+        margin: 0 auto;
+    }
+    .tdiv td{
+        padding-left: 80px; padding-right: 80px;
+    }    
+    #fsttd{
+        border-bottom: 2px solid #a4a4a4;
+    }
+    .tdiv li{
+        list-style: none;
+        display: inline-block;
+        vertical-align: top;    
+        margin-right: 20px;
+    }
+    .img{
+        width: 250px; height: 250px;        
+        border: 5px solid gray;
+    }
+    footer{
+        background-color: white;
+        height: 70px;
+    }
+    footer p{
+        text-align: center;
+        padding-top: 10px;
+    }
+    footer a{
+        text-decoration: none;
+        color: gray;
+    }
+</style>
+</head>
+<body>
+   <header>
+    <ul class="headul">
+        <li><a href="index.html">홈</a></li>
+        <li><a href="aboutme.html">자기소개</a></li>
+        <li><a href="photo.html">내사진</a></li>
+        <li><a href="http://localhost:8080/aboutme/today">몇시에요</a></li>
+    </ul>
+   </header>
+   <section>
+    <table class="tdiv">
+     <tr>
+       <td id="fsttd">
+        <li>
+            <img class="img" src="images/crong.jpg">
+        </li>        
+        <li>
+            <p>2014.01.03<br>제가 크롱일때 찍은 사진입니다.<br>이때는 혼자 신나게 놀던 때 입니다.</p>
+        </li>
+        </td>
+    </tr>
+    <tr>
+       <td>
+        <li>
+            <img class="img" src="images/homer.png">       
+        </li>        
+        <li>
+            <p>2014.01.03<br>제가 심슨일때 찍은 사진입니다.<br>이때는 혼자 신나게 놀던 때 입니다.</p>
+        </li>
+        </td>
+    </tr>
+    </table>
+   </section>
+    <footer>
+        <p><a href="#">crong@naver.com</a><br><a href="#">http://github.com/crong</a></p>
+    </footer>
+
+</body>
+</html>
