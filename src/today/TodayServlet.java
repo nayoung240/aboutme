@@ -28,7 +28,7 @@ public class TodayServlet extends HttpServlet {
 		response.setContentType("text/html;charset=utf-8");
 		PrintWriter out = response.getWriter();
 		
-		out.println("<h3 style='margin-left: 30px;'><a href='http://localhost:8080/aboutme/index.html'>메인화면</a></h3>");
+		out.println("<h3 style='margin-left: 30px;'><a href='/aboutme/index.html'>메인화면</a></h3>");
 		
 		//LocalDateTime: [년,월,일,시,분,초]를 표현하는 클래스
 		String date=LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy/MM/dd hh:mm"));
